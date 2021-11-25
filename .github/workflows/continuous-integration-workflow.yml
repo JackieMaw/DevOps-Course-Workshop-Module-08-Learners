@@ -55,4 +55,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: jackiemaw/dotnettemplate:${{ github.refname }}
+          tags: jackiemaw/dotnettemplate:${{ github.ref_name }}
